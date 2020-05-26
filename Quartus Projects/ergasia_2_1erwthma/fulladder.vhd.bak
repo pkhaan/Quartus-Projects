@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+package comp_Fulladder is
+--Fuladder Construction--
+component FULLADDER
+            port (Cin, x, y: in std_logic; s, Cout: out std_logic);
+     end component;
+	end package comp_Fulladder
+	
+	library ieee;
+use ieee.std_logic_1164.all;
+
+    entity FULLADDER is
+           
+           port (Cin, x, y: in std_logic; s, Cout: out std_logic);
+     end FULLADDER;
+     architecture model_concK of FULLADDER is
+           begin
+                
+			 s <= x XOR y XOR Cin ;
+			 Cout <= (x AND y) OR (Cin AND x) OR (Cin AND y) ;
+					 
+     end model_concK;
+	 

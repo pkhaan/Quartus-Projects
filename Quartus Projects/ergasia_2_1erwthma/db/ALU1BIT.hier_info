@@ -1,0 +1,82 @@
+|ALU1BIT
+a => myNOT:I0.in1
+a => myMUX2_TO_1:I3.w0
+b => myNOT:I1.in1
+b => myMUX2_TO_1:I4.w0
+Ainvert => myMUX2_TO_1:I3.s
+Binvert => myMUX2_TO_1:I4.s
+Cin => FULLADDER:I7.Cin
+Operation[0] => multiplexer_4_to_1:I9.s[0]
+Operation[1] => multiplexer_4_to_1:I9.s[1]
+Cout <= FULLADDER:I7.Cout
+Result <= multiplexer_4_to_1:I9.f
+
+
+|ALU1BIT|myNOT:I0
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU1BIT|myNOT:I1
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU1BIT|myMUX2_TO_1:I3
+w0 => f.DATAB
+w1 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU1BIT|myMUX2_TO_1:I4
+w0 => f.DATAB
+w1 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU1BIT|myAND2:I5
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => ~NO_FANOUT~
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU1BIT|myOR2:I6
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => ~NO_FANOUT~
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU1BIT|FULLADDER:I7
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+x => s.IN0
+x => Cout.IN0
+x => Cout.IN1
+y => s.IN1
+y => Cout.IN1
+y => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU1BIT|myXOR:I8
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU1BIT|multiplexer_4_to_1:I9
+p0 => Mux0.IN0
+p1 => Mux0.IN1
+p2 => Mux0.IN2
+p3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+f <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\peter_000\Desktop\OCOEAEA OOOOCIAOA\LAB1\LAB1(VHDL)\simulation\qsim
+vLab1b
+Z1 IKb;G;0EZa]6XMW>feD@W81
+Z2 VRN?`SgdCF7YL`CIP^Zo?D2
+Z3 dC:\Users\peter_000\Desktop\OCOEAEA OOOOCIAOA\LAB1\LAB1(VHDL)\simulation\qsim
+Z4 w1521679489
+Z5 8Lab1b.vo
+Z6 FLab1b.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Lab1b.vo|
+Z9 o-work work -O0
+Z10 n@lab1b
+!i10b 1
+Z11 !s100 8C66QGhVnYh@MT>BTUIMb2
+!s85 0
+Z12 !s108 1521679494.096000
+Z13 !s107 Lab1b.vo|
+!s101 -O0
+vLab1b_vlg_check_tst
+!i10b 1
+Z14 !s100 oOcA2NNlTETCfIOa?^Rd_1
+Z15 IW^@BQoVSKP8eUg0fB2]Di2
+Z16 VTh3TMb0IMU55lGcmaajXH0
+R3
+Z17 w1521679486
+Z18 8Lab1b.vt
+Z19 FLab1b.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1521679494.745000
+Z21 !s107 Lab1b.vt|
+Z22 !s90 -work|work|Lab1b.vt|
+!s101 -O0
+R9
+Z23 n@lab1b_vlg_check_tst
+vLab1b_vlg_sample_tst
+!i10b 1
+Z24 !s100 eTkL=UHCooBjCMK9jkaLo1
+Z25 IS^FFOL3bDaBW=zRV1^>gL3
+Z26 VI`WOB[:Aif_[[243c6fZU3
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@lab1b_vlg_sample_tst
+vLab1b_vlg_vec_tst
+!i10b 1
+Z28 !s100 VRa3cPVeH^BlQU`e=TLUg0
+Z29 I0mNzJQm@db3eoMPVKZn`W1
+Z30 VF<MzGMfUQdFG8V>Qk0=zd2
+R3
+R17
+R18
+R19
+Z31 L0 156
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@lab1b_vlg_vec_tst

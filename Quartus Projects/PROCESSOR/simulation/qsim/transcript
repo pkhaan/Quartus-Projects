@@ -1,0 +1,28 @@
+# do proc.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module proc
+# 
+# Top level modules:
+# 	proc
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module proc_vlg_sample_tst
+# -- Compiling module proc_vlg_check_tst
+# -- Compiling module proc_vlg_vec_tst
+# 
+# Top level modules:
+# 	proc_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.proc_vlg_vec_tst 
+# Loading work.proc_vlg_vec_tst
+# Loading work.proc
+# Loading altera_ver.dffeas
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading work.proc_vlg_sample_tst
+# Loading work.proc_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# Simulation passed !
+# ** Note: $finish    : proc.vt(450)
+#    Time: 500 ns  Iteration: 0  Instance: /proc_vlg_vec_tst/tb_out

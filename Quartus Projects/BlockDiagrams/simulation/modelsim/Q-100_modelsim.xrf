@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/BlockDiagrams/Q-100.bdf
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/BlockDiagrams/Waveform.vwf
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/BlockDiagrams/db/Q-100.cbx.xml
+design_name = \Q-100 
+instance = comp, \x3~I , x3, \Q-100 , 1
+instance = comp, \x6~I , x6, \Q-100 , 1
+instance = comp, \x1~I , x1, \Q-100 , 1
+instance = comp, \x2~I , x2, \Q-100 , 1
+instance = comp, \x0~I , x0, \Q-100 , 1
+instance = comp, \inst5~0 , inst5~0, \Q-100 , 1
+instance = comp, \x4~I , x4, \Q-100 , 1
+instance = comp, \x5~I , x5, \Q-100 , 1
+instance = comp, \inst5~1 , inst5~1, \Q-100 , 1
+instance = comp, \x7~I , x7, \Q-100 , 1
+instance = comp, \inst5~2 , inst5~2, \Q-100 , 1
+instance = comp, \f~I , f, \Q-100 , 1

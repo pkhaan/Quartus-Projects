@@ -1,0 +1,10 @@
+# do Q-100.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module \Q-100 
+# 
+# Top level modules:
+# 	\Q-100 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: Q-100.vt(29): near "-": syntax error, unexpected '-', expecting import or ';' or '#' or '('
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./Q-100.do line 4

@@ -1,0 +1,43 @@
+|Lab1c
+x1 => myNOT1:I0.in1
+x1 => myOR2:I2.in1
+x2 => myOR2:I3.in2
+x3 => myNOT1:I1.in1
+x3 => myOR2:I2.in2
+f <= myAND2:I5.out1
+
+
+|Lab1c|myNOT1:I0
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1c|myNOT1:I1
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1c|myOR2:I2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1c|myOR2:I3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1c|myOR2:I4
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab1c|myAND2:I5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+

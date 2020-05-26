@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Jason/Documents/quartus/ERG1PR3.vhd
+source_file = 1, C:/Users/Jason/Documents/quartus/Waveform.vwf
+source_file = 1, C:/Users/Jason/Documents/quartus/db/ERG1PR3.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = ERG1PR3
+instance = comp, \x2~I , x2, ERG1PR3, 1
+instance = comp, \x3~I , x3, ERG1PR3, 1
+instance = comp, \x1~I , x1, ERG1PR3, 1
+instance = comp, \f~0 , f~0, ERG1PR3, 1
+instance = comp, \f~I , f, ERG1PR3, 1

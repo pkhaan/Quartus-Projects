@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\peter_000\Desktop\OCOEAEA OOOOCIAOA\LAB1\simulation\qsim
+vERGASTHRIO1
+Z1 IK`AU;l7;ffZk1I_YTm64a2
+Z2 VJKIaI9[K3bZgZ>;ml<]ZX3
+Z3 dC:\Users\peter_000\Desktop\OCOEAEA OOOOCIAOA\LAB1\simulation\qsim
+Z4 w1521676346
+Z5 8ERGASTHRIO1.vo
+Z6 FERGASTHRIO1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ERGASTHRIO1.vo|
+Z9 o-work work -O0
+Z10 n@e@r@g@a@s@t@h@r@i@o1
+!i10b 1
+Z11 !s100 >[`8l3ZjYjTWeJ3:BDG<I3
+!s85 0
+Z12 !s108 1521676352.112000
+Z13 !s107 ERGASTHRIO1.vo|
+!s101 -O0
+vERGASTHRIO1_vlg_check_tst
+!i10b 1
+Z14 !s100 CJ9`8]G1k47`Pa;L6A`cG2
+Z15 IlkzLR@enVDBPMIo1jEi7E2
+Z16 VkOVR4>]:ZnKBXc6?=nf6X3
+R3
+Z17 w1521676342
+Z18 8ERGASTHRIO1.vt
+Z19 FERGASTHRIO1.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1521676352.789000
+Z21 !s107 ERGASTHRIO1.vt|
+Z22 !s90 -work|work|ERGASTHRIO1.vt|
+!s101 -O0
+R9
+Z23 n@e@r@g@a@s@t@h@r@i@o1_vlg_check_tst
+vERGASTHRIO1_vlg_sample_tst
+!i10b 1
+Z24 !s100 78g_H<2Uk>W2K>_g1Dc:n3
+Z25 I;J84C;5jL4_ghY^5D0B9`2
+Z26 VUTYfn_jTD^i5LV11`Chan0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@e@r@g@a@s@t@h@r@i@o1_vlg_sample_tst
+vERGASTHRIO1_vlg_vec_tst
+!i10b 1
+Z28 !s100 ID`0<1`MLjVd]fI;7_nJk3
+Z29 IOT9KkP;3=k7X]nXdo089P0
+Z30 VJJ=NFZ@1@EDMQW3>PJOjh0
+R3
+R17
+R18
+R19
+Z31 L0 156
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@e@r@g@a@s@t@h@r@i@o1_vlg_vec_tst

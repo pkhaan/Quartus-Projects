@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\peter_000\Desktop\OCOEAEA OOOOCIAOA\QUARTUS Project 2\simulation\qsim
+vVHDLEXAMPLE
+Z1 ID0gFZnRkM]emEcePSGAgg2
+Z2 VUccg3I7B<:hO3YREdC?Ki3
+Z3 dC:\Users\peter_000\Desktop\OCOEAEA OOOOCIAOA\QUARTUS Project 2\simulation\qsim
+Z4 w1520541672
+Z5 8VHDLEXAMPLE.vo
+Z6 FVHDLEXAMPLE.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|VHDLEXAMPLE.vo|
+Z9 o-work work -O0
+Z10 n@v@h@d@l@e@x@a@m@p@l@e
+!i10b 1
+Z11 !s100 XgeO1ZoF<0f:SEXh1LfLW0
+!s85 0
+Z12 !s108 1520541677.145000
+Z13 !s107 VHDLEXAMPLE.vo|
+!s101 -O0
+vVHDLEXAMPLE_vlg_check_tst
+!i10b 1
+Z14 !s100 aldc^FkJ<WR;=gRV;:ji`1
+Z15 I@zG4Dj]QWJC[<YQIN:;E]0
+Z16 Vdi__MJa;dCD6J[l9EzNR51
+R3
+Z17 w1520541669
+Z18 8VHDLEXAMPLE.vt
+Z19 FVHDLEXAMPLE.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1520541677.601000
+Z21 !s107 VHDLEXAMPLE.vt|
+Z22 !s90 -work|work|VHDLEXAMPLE.vt|
+!s101 -O0
+R9
+Z23 n@v@h@d@l@e@x@a@m@p@l@e_vlg_check_tst
+vVHDLEXAMPLE_vlg_sample_tst
+!i10b 1
+Z24 !s100 B^F6S;E>Al`hW11YA_ROb1
+Z25 I@_hi5DVSb5:7844Ej7<:P0
+Z26 V6WPzzW[:V=3^EdN<nZ<QA3
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@v@h@d@l@e@x@a@m@p@l@e_vlg_sample_tst
+vVHDLEXAMPLE_vlg_vec_tst
+!i10b 1
+Z28 !s100 oN29fP_TJ_=3?nD>1Cg843
+Z29 IS=fMk@PbITEB_Zm[2_gLb2
+Z30 VA[^dEjG;9<>[9ek:=6b>f1
+R3
+R17
+R18
+R19
+Z31 L0 156
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@v@h@d@l@e@x@a@m@p@l@e_vlg_vec_tst

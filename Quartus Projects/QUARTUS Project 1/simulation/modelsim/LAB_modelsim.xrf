@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/QUARTUS PROJECTS/LAB.bdf
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/QUARTUS PROJECTS/Waveform.vwf
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/QUARTUS PROJECTS/db/LAB.cbx.xml
+design_name = LAB
+instance = comp, \x1~I , x1, LAB, 1
+instance = comp, \x2~I , x2, LAB, 1
+instance = comp, \x3~I , x3, LAB, 1
+instance = comp, \inst3~0 , inst3~0, LAB, 1
+instance = comp, \f~I , f, LAB, 1

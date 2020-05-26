@@ -1,0 +1,51 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use std.standard.severity_level;
+
+   package OverflowCheck is 
+	
+	    process check 
+	        (signal Overflow : in std_logic);
+			  end OverflowCheck;
+			  
+			  package body OverflowCheck is 
+			     process check 
+				   (signal Overflow : in std_logic) is
+					
+					  begin 
+					  
+					  if Overflow = "1" then 
+					     
+						  report "error";
+						  
+						  end if;
+						  
+						  
+						  end check;
+						  end OverflowCheck; 
+						  
+					
+					
+			    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	entity e0 is
+end entity e0;
+architecture demo of e0 is
+begin
+    process is
+    begin
+        report "message";
+        wait;
+    end process;
+
+    report "message"; -- error
+end architecture demo;

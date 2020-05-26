@@ -1,0 +1,128 @@
+|Problem1
+x1 => myNOT:I0.in1
+x2 => myNOT:I1.in1
+x2 => myOR2:I5.in2
+x2 => myOR2:I7.in1
+x2 => myOR3:I10.in1
+x2 => myOR3:I11.in1
+x2 => myOR3:I12.in2
+x3 => myNOT:I2.in1
+x3 => myOR2:I8.in1
+x4 => myNOT:I3.in1
+x4 => myOR3:I9.in2
+x4 => myOR3:I10.in2
+x5 => myNOT:I4.in1
+x5 => myOR2:I6.in2
+x5 => myOR2:I8.in2
+x5 => myOR4:I13.in4
+f <= myAND5:I14.out1
+g <= myAND5:I15.out1
+
+
+|Problem1|myNOT:I0
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myNOT:I1
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myNOT:I2
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myNOT:I3
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myNOT:I4
+in1 => out1.DATAIN
+out1 <= in1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR2:I5
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => ~NO_FANOUT~
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR2:I6
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => ~NO_FANOUT~
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR2:I7
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => ~NO_FANOUT~
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR2:I8
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => ~NO_FANOUT~
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR3:I9
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR3:I10
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR3:I11
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR3:I12
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myOR4:I13
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => out1.IN1
+in4 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myAND5:I14
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => out1.IN1
+in4 => out1.IN1
+in5 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Problem1|myAND5:I15
+in1 => out1.IN0
+in2 => out1.IN1
+in3 => out1.IN1
+in4 => out1.IN1
+in5 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/ERGASIA/ASKHSH 2(SWSTO)/ask2.bdf
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/ERGASIA/ASKHSH 2(SWSTO)/Waveform.vwf
+source_file = 1, C:/Users/peter_000/Desktop/OCOEAEA OOOOCIAOA/ERGASIA/ASKHSH 2(SWSTO)/db/ask2.cbx.xml
+design_name = ask2
+instance = comp, \x4~I , x4, ask2, 1
+instance = comp, \x3~I , x3, ask2, 1
+instance = comp, \x2~I , x2, ask2, 1
+instance = comp, \x1~I , x1, ask2, 1
+instance = comp, \inst5~0 , inst5~0, ask2, 1
+instance = comp, \f~I , f, ask2, 1

@@ -1,0 +1,34 @@
+--το συγκεκριμένο αρχείο το δημιοργήσαμε έτσι ώστε 
+--σε περίπτωση υπερχείλισης να δημιοργούσε μήνυμα στην οθόνη (τύπου warning ή note)
+--αλλά η τωρινή version του Quartus δεν υποστηρίζει το report ή το assert 
+--και μας έβγαζε ένα συγκεκριμένο error interface object "obj" of mode out cannot be read. Change object mode to buffer
+--Απλά Ελέγχουμε αν το τελευταίο κρατούμενο (εξόδου) ή η υπερχείλιση ισούται με '1' για να δούμε αν υφίσταται
+
+
+--library IEEE;
+--use IEEE.STD_LOGIC_1164.all;
+--use std.standard.severity_level;
+--
+--   package OverflowCheck is 
+--	
+--	    procedure  check 
+--	        (signal Overflow : in std_logic);
+--			  end OverflowCheck;
+--			  
+--			  package body OverflowCheck is 
+--			     procedure check 
+--				   (signal Overflow : in std_logic) is
+--					
+--					  begin 
+--					  
+--					  if Overflow = "1" then 
+--					     
+--						  report "error";
+--						  
+--						  end if;
+--						  
+--						  
+--						  end check;
+--						  end OverflowCheck; 
+--						  
+--		
